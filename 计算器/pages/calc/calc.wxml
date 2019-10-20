@@ -1,0 +1,27 @@
+<view class='screenCalucate'> 
+<view class="resultNum">{{resultTrue}}</view>
+ </view>
+
+ <view class="keyPresser">
+ <view bindtap="clearBtn" data-symbol="C">C</view>
+ <view bindtap="preBtn" data-back="←">←</view>
+ <view bindtap="historyBtn" data-his='history' bindtap="historyPage">
+ <icon type="waiting" color="#fff" size="28"></icon>
+ </view>
+ <view bindtap="jisuanBtn" data-symbol='+'>+</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="9">9</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="8">8</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="7">7</view>
+ <view bindtap="jisuanBtn" data-symbol="-">-</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="6">6</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="5">5</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="4">4</view>
+ <view bindtap="jisuanBtn" data-symbol="x">x</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="3">3</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="2">2</view>
+ <view bindtap="pressBtn" class="cBlue" data-id="1">1</view>
+ <view bindtap="jisuanBtn" data-symbol="/">/</view>
+ <view bindtap="pressBtn" class="spaceTwo cBlue" data-id="0">0</view>
+ <view bindtap="pressBtn" class="cBlue" data-id=".">.</view>
+ <view bindtap="enqualBtn">=</view>
+ </view>

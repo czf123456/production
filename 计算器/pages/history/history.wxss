@@ -1,0 +1,15 @@
+/* pages/history/history.wxss */
+.calc {
+  height: 80rpx ;
+  width: 100% ;
+  color: rgb(221, 253, 226) ;
+  background: rgba(255, 68, 0, 0.856) ;
+  line-height: 80rpx;
+  font-size: 1rem ;
+  border: 1px solid rgba(102, 51, 153, 0.849) ;
+  margin: 4rpx;
+  text-align: center ;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;  
+}

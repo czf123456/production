@@ -1,0 +1,50 @@
+/* pages/calc/calc.wxss */
+.screenCalucate {
+  /* height: 300rpx; */
+  width:99%;
+  background-color: #c9effc ;
+  font-size: 3rem;
+  font-weight: bold ;
+   /* 不能设置 固定高度 如果设置了固定高度 伸缩项目不能自动拉高 */ 
+  line-height: 300rpx;
+  display: flex ;
+  justify-content: flex-end ;
+  overflow: hidden ;
+  margin: 4rpx;
+}
+.resultNum {
+  width: 100% ; 
+  /* 字体靠右 */
+  text-align: right ;
+  margin-right: 20rpx;
+  word-wrap:break-word;
+  /* 内容超出自动换行 并且容器也自动撑高 */
+  overflow-x: auto ;
+}
+.keyPresser {
+  display: flex;
+  /* justify-content:  */
+  flex-wrap: wrap ;
+  justify-content: flex-start ; 
+  overflow: hidden ;
+  flex: 1 ; 
+}
+.keyPresser view {
+  width: 24.5% ;
+  margin: 2rpx;
+  font-size: 2rem;
+  background: #f78d1d ;
+  color: white ;
+  text-align: center ;
+  line-height: 180rpx;
+  overflow: hidden ;
+}
+.keyPresser .spaceTwo {
+  flex: 2 ;
+}
+.keyPresser .cBlue {
+  background-color: #0095cd;
+}
+.keyPresser view:active {
+   background-color: red ;
+}
